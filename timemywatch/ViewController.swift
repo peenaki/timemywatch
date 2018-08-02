@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     //MARK: Properties
 
@@ -18,13 +18,29 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Handle the text field's user input through delegate callbacks.
+        watchNameTextFeild.delegate = self
+    }
+    
+    //MARK: UITextFieldDelegate
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // hide the keyboard.
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        watchNameLabel.text = watchNameTextFeild.text
+        watchNameTextFeild.text?.removeAll()
     }
     
     //MARK: Actions
 
     @IBAction func watchNameButton(_ sender: UIButton) {
-        watchNameLabel.text = watchNameTextFeild.text
+        watchNameLabel.text = "Watch Name"
+        watchNameTextFeild.text?.removeAll()
     }
 }
 
