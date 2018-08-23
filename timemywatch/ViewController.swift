@@ -14,7 +14,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var watchNameTextFeild: UITextField!
     @IBOutlet weak var watchNameLabel: UILabel!
-    @IBOutlet weak var watchNameButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,10 +36,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     //MARK: Actions
-
-    @IBAction func watchNameButton(_ sender: UIButton) {
-        watchNameLabel.text = "Watch Name"
+    @IBAction func setDefaultWatchNameLabel(_ sender: UIButton) {
         watchNameTextFeild.text?.removeAll()
+        watchNameLabel.text = "Watch Name"
     }
+
 }
 

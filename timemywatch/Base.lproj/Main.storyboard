@@ -38,7 +38,7 @@
                                         <rect key="frame" x="0.0" y="66.5" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
                                         <connections>
-                                            <action selector="watchNameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u5k-kl-BUZ"/>
+                                            <action selector="setDefaultWatchNameLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecm-XV-7HG"/>
                                         </connections>
                                     </button>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="LSW-HW-HUa">
@@ -63,7 +63,6 @@
                     </view>
                     <connections>
                         <outlet property="view" destination="8bC-Xf-vdC" id="2pJ-lk-rCz"/>
-                        <outlet property="watchNameButton" destination="CQ0-G1-l5y" id="bUt-ye-4hF"/>
                         <outlet property="watchNameLabel" destination="pWv-yT-ufG" id="PEw-yW-Rkq"/>
                         <outlet property="watchNameTextFeild" destination="d6c-fj-0qW" id="fIV-lu-2HH"/>
                     </connections>
