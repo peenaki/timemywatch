@@ -36,6 +36,7 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQ0-G1-l5y">
                                         <rect key="frame" x="0.0" y="66.5" width="151" height="30"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                         <state key="normal" title="Set Default Label Text"/>
                                         <connections>
                                             <action selector="setDefaultWatchNameLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecm-XV-7HG"/>

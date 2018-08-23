@@ -76,7 +76,14 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
 
     @IBAction func setDefaultWatchNameLabel(_ sender: UIButton) {
+
+        // hide the keyboard.
+        watchNameTextFeild.resignFirstResponder()
+
+        // empty the text field
         watchNameTextFeild.text?.removeAll()
+
+        // reset label
         watchNameLabel.text = "Watch Name"
     }
 
