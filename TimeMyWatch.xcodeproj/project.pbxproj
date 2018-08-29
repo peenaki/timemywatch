@@ -15,6 +15,7 @@
 		145EEEF92111FCFE00C91B09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145EEEF72111FCFE00C91B09 /* LaunchScreen.storyboard */; };
 		145EEF042111FCFF00C91B09 /* timemywatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EEF032111FCFF00C91B09 /* timemywatchTests.swift */; };
 		145EEF0F2111FCFF00C91B09 /* timemywatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145EEF0E2111FCFF00C91B09 /* timemywatchUITests.swift */; };
+		14E742162130550A00AB54AF /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E742152130550A00AB54AF /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		145EEF0A2111FCFF00C91B09 /* timemywatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timemywatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145EEF0E2111FCFF00C91B09 /* timemywatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timemywatchUITests.swift; sourceTree = "<group>"; };
 		145EEF102111FCFF00C91B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E742152130550A00AB54AF /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 			children = (
 				145EEEEB2111FCFB00C91B09 /* AppDelegate.swift */,
 				145EEEED2111FCFB00C91B09 /* ViewController.swift */,
+				14E742152130550A00AB54AF /* RatingControl.swift */,
+				145EEEF72111FCFE00C91B09 /* LaunchScreen.storyboard */,
 				145EEEEF2111FCFB00C91B09 /* Main.storyboard */,
 				145EEEF52111FCFE00C91B09 /* Assets.xcassets */,
-				145EEEF72111FCFE00C91B09 /* LaunchScreen.storyboard */,
 				145EEEFA2111FCFE00C91B09 /* Info.plist */,
 				145EEEF22111FCFB00C91B09 /* timemywatch.xcdatamodeld */,
 			);
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E742162130550A00AB54AF /* RatingControl.swift in Sources */,
 				145EEEEE2111FCFB00C91B09 /* ViewController.swift in Sources */,
 				145EEEEC2111FCFB00C91B09 /* AppDelegate.swift in Sources */,
 				145EEEF42111FCFB00C91B09 /* timemywatch.xcdatamodeld in Sources */,
