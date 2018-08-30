@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		145EEEE82111FCFA00C91B09 /* timemywatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timemywatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145EEEE82111FCFA00C91B09 /* TimeMyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeMyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		145EEEEB2111FCFB00C91B09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		145EEEED2111FCFB00C91B09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		145EEEF02111FCFB00C91B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,10 +44,10 @@
 		145EEEF52111FCFE00C91B09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		145EEEF82111FCFE00C91B09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145EEEFA2111FCFE00C91B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		145EEEFF2111FCFE00C91B09 /* timemywatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timemywatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145EEEFF2111FCFE00C91B09 /* TimeMyWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeMyWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145EEF032111FCFF00C91B09 /* timemywatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timemywatchTests.swift; sourceTree = "<group>"; };
 		145EEF052111FCFF00C91B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		145EEF0A2111FCFF00C91B09 /* timemywatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timemywatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145EEF0A2111FCFF00C91B09 /* TimeMyWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeMyWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145EEF0E2111FCFF00C91B09 /* timemywatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timemywatchUITests.swift; sourceTree = "<group>"; };
 		145EEF102111FCFF00C91B09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14E742152130550A00AB54AF /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				145EEEEA2111FCFB00C91B09 /* timemywatch */,
-				145EEF022111FCFE00C91B09 /* timemywatchTests */,
-				145EEF0D2111FCFF00C91B09 /* timemywatchUITests */,
+				145EEF022111FCFE00C91B09 /* TimeMyWatchTests */,
+				145EEF0D2111FCFF00C91B09 /* TimeMyWatchUITests */,
 				145EEEE92111FCFA00C91B09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 		145EEEE92111FCFA00C91B09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				145EEEE82111FCFA00C91B09 /* timemywatch.app */,
-				145EEEFF2111FCFE00C91B09 /* timemywatchTests.xctest */,
-				145EEF0A2111FCFF00C91B09 /* timemywatchUITests.xctest */,
+				145EEEE82111FCFA00C91B09 /* TimeMyWatch.app */,
+				145EEEFF2111FCFE00C91B09 /* TimeMyWatchTests.xctest */,
+				145EEF0A2111FCFF00C91B09 /* TimeMyWatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,30 +113,30 @@
 			path = timemywatch;
 			sourceTree = "<group>";
 		};
-		145EEF022111FCFE00C91B09 /* timemywatchTests */ = {
+		145EEF022111FCFE00C91B09 /* TimeMyWatchTests */ = {
 			isa = PBXGroup;
 			children = (
 				145EEF032111FCFF00C91B09 /* timemywatchTests.swift */,
 				145EEF052111FCFF00C91B09 /* Info.plist */,
 			);
-			path = timemywatchTests;
+			path = TimeMyWatchTests;
 			sourceTree = "<group>";
 		};
-		145EEF0D2111FCFF00C91B09 /* timemywatchUITests */ = {
+		145EEF0D2111FCFF00C91B09 /* TimeMyWatchUITests */ = {
 			isa = PBXGroup;
 			children = (
 				145EEF0E2111FCFF00C91B09 /* timemywatchUITests.swift */,
 				145EEF102111FCFF00C91B09 /* Info.plist */,
 			);
-			path = timemywatchUITests;
+			path = TimeMyWatchUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		145EEEE72111FCFA00C91B09 /* timemywatch */ = {
+		145EEEE72111FCFA00C91B09 /* TimeMyWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145EEF132111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "timemywatch" */;
+			buildConfigurationList = 145EEF132111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "TimeMyWatch" */;
 			buildPhases = (
 				145EEEE42111FCFA00C91B09 /* Sources */,
 				145EEEE52111FCFA00C91B09 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = timemywatch;
+			name = TimeMyWatch;
 			productName = timemywatch;
-			productReference = 145EEEE82111FCFA00C91B09 /* timemywatch.app */;
+			productReference = 145EEEE82111FCFA00C91B09 /* TimeMyWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		145EEEFE2111FCFE00C91B09 /* timemywatchTests */ = {
+		145EEEFE2111FCFE00C91B09 /* TimeMyWatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145EEF162111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "timemywatchTests" */;
+			buildConfigurationList = 145EEF162111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "TimeMyWatchTests" */;
 			buildPhases = (
 				145EEEFB2111FCFE00C91B09 /* Sources */,
 				145EEEFC2111FCFE00C91B09 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				145EEF012111FCFE00C91B09 /* PBXTargetDependency */,
 			);
-			name = timemywatchTests;
+			name = TimeMyWatchTests;
 			productName = timemywatchTests;
-			productReference = 145EEEFF2111FCFE00C91B09 /* timemywatchTests.xctest */;
+			productReference = 145EEEFF2111FCFE00C91B09 /* TimeMyWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		145EEF092111FCFF00C91B09 /* timemywatchUITests */ = {
+		145EEF092111FCFF00C91B09 /* TimeMyWatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 145EEF192111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "timemywatchUITests" */;
+			buildConfigurationList = 145EEF192111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "TimeMyWatchUITests" */;
 			buildPhases = (
 				145EEF062111FCFF00C91B09 /* Sources */,
 				145EEF072111FCFF00C91B09 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				145EEF0C2111FCFF00C91B09 /* PBXTargetDependency */,
 			);
-			name = timemywatchUITests;
+			name = TimeMyWatchUITests;
 			productName = timemywatchUITests;
-			productReference = 145EEF0A2111FCFF00C91B09 /* timemywatchUITests.xctest */;
+			productReference = 145EEF0A2111FCFF00C91B09 /* TimeMyWatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				145EEEE72111FCFA00C91B09 /* timemywatch */,
-				145EEEFE2111FCFE00C91B09 /* timemywatchTests */,
-				145EEF092111FCFF00C91B09 /* timemywatchUITests */,
+				145EEEE72111FCFA00C91B09 /* TimeMyWatch */,
+				145EEEFE2111FCFE00C91B09 /* TimeMyWatchTests */,
+				145EEF092111FCFF00C91B09 /* TimeMyWatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		145EEF012111FCFE00C91B09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 145EEEE72111FCFA00C91B09 /* timemywatch */;
+			target = 145EEEE72111FCFA00C91B09 /* TimeMyWatch */;
 			targetProxy = 145EEF002111FCFE00C91B09 /* PBXContainerItemProxy */;
 		};
 		145EEF0C2111FCFF00C91B09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 145EEEE72111FCFA00C91B09 /* timemywatch */;
+			target = 145EEEE72111FCFA00C91B09 /* TimeMyWatch */;
 			targetProxy = 145EEF0B2111FCFF00C91B09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,6 +476,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWF976EXBH;
 				INFOPLIST_FILE = timemywatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -496,6 +497,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWF976EXBH;
 				INFOPLIST_FILE = timemywatchTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -560,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		145EEF132111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "timemywatch" */ = {
+		145EEF132111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "TimeMyWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				145EEF142111FCFF00C91B09 /* Debug */,
@@ -569,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		145EEF162111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "timemywatchTests" */ = {
+		145EEF162111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "TimeMyWatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				145EEF172111FCFF00C91B09 /* Debug */,
@@ -578,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		145EEF192111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "timemywatchUITests" */ = {
+		145EEF192111FCFF00C91B09 /* Build configuration list for PBXNativeTarget "TimeMyWatchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				145EEF1A2111FCFF00C91B09 /* Debug */,
