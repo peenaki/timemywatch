@@ -81,7 +81,7 @@
 		145EEEDF2111FCFA00C91B09 = {
 			isa = PBXGroup;
 			children = (
-				145EEEEA2111FCFB00C91B09 /* timemywatch */,
+				145EEEEA2111FCFB00C91B09 /* TimeMyWatch */,
 				145EEF022111FCFE00C91B09 /* TimeMyWatchTests */,
 				145EEF0D2111FCFF00C91B09 /* TimeMyWatchUITests */,
 				145EEEE92111FCFA00C91B09 /* Products */,
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		145EEEEA2111FCFB00C91B09 /* timemywatch */ = {
+		145EEEEA2111FCFB00C91B09 /* TimeMyWatch */ = {
 			isa = PBXGroup;
 			children = (
 				145EEEEB2111FCFB00C91B09 /* AppDelegate.swift */,
@@ -110,7 +110,7 @@
 				145EEEFA2111FCFE00C91B09 /* Info.plist */,
 				145EEEF22111FCFB00C91B09 /* timemywatch.xcdatamodeld */,
 			);
-			path = timemywatch;
+			path = TimeMyWatch;
 			sourceTree = "<group>";
 		};
 		145EEF022111FCFE00C91B09 /* TimeMyWatchTests */ = {
@@ -487,7 +487,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMyWatch.temp_caseinsensitive_rename.app/TimeMyWatch.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMyWatch.app/TimeMyWatch";
 			};
 			name = Debug;
 		};
@@ -508,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMyWatch.temp_caseinsensitive_rename.app/TimeMyWatch.temp_caseinsensitive_rename";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeMyWatch.app/TimeMyWatch";
 			};
 			name = Release;
 		};
@@ -517,6 +517,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWF976EXBH;
 				INFOPLIST_FILE = timemywatchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,6 +537,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWF976EXBH;
 				INFOPLIST_FILE = timemywatchUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
